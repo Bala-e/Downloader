@@ -1,0 +1,14 @@
+body {background-color: #e8fbe8}
+h2   {color: blue; text-align: center;}
+form
+{
+	text-align:center;
+	
+}
+
+button:hover {color:#fff;background-color:#286090;border-color:#204d74}
+button{
+	color:#fff;background-color:#337ab7;border-color:#2e6da4;
+	border:none;
+	font-size: 1em;
+}

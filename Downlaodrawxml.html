@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <title>XML download</title>
+    <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+  <h2>XML Downloader</h2>
+  <form>
+    <div class="form-group">
+      <label id="name" for="uname">Doi with customer and project name</label>
+      <input type="text" id="doi" placeholder="Enter Doi" name="doi">
+	  <input type="text" id="customer" placeholder="Enter customer" name="customer">
+      <input type="text" id="project" placeholder="Enter project" name="project">
+    </div>
+	<br>
+	<br>
+	<button type="submit" target="_blank"  onclick="redirect();return false">Download raw xml</button>	
+	<button type="submit" target="_blank"  onclick="final_xml();return false">Download final xml</button>
+
+  </form>
+      </div>
+</div>
+</body>
+</html>
